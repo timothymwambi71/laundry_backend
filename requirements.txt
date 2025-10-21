@@ -1,0 +1,19 @@
+# requirements.txt
+Django
+djangorestframework
+django-cors-headers
+#psycopg2-binary
+python-decouple
+celery
+redis
+
+# Optional but recommended
+django-filter
+pillow
+
+# For notifications (choose one or more)
+# twilio==8.11.0
+# africastalking==1.2.6
+
+# For development
+django-debug-toolbar
